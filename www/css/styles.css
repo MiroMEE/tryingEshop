@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    flex-grow: 3;
+    border-radius: 8px;
+    button{
+        transition: border 0.3s;
+        border: greenyellow solid;
+        background-color: transparent;
+        padding: 1em;
+        border-radius: 18px;
+    }
+    button:hover{
+        border-color: black;
+        cursor: pointer;
+    }
+}

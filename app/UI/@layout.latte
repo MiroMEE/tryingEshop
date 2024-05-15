@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width">
 
 	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Web</title>
+	<script src="{$basePath}/js/jquery-3.7.1.min.js"></script>
+	<link rel="stylesheet" href="{$basePath}/css/styles.css">
 </head>
 
 <body>
@@ -15,5 +17,6 @@
 	{block scripts}
 	<script src="https://unpkg.com/nette-forms@3/src/assets/netteForms.js"></script>
 	{/block}
+
 </body>
 </html>

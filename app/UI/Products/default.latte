@@ -1,0 +1,15 @@
+{block content}
+{control addProductsForm}
+
+<div class="flex">
+    {foreach $items as $item}
+
+        <div class="flex flex-center items">
+            <h1>{$item->name}</h1>
+            <p>{$item->description}</p>
+            <h2>Počet kusů: {$item->quantity}</h2>
+            <h2>{$item->cost} Kč</h2>
+            <button id={$item->id}>Zobrazit</button>
+        </div>
+    {/foreach}
+</div>

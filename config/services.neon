@@ -1,5 +1,7 @@
 services:
 	- App\Core\RouterFactory::createRouter
+	- App\Models\ProductsModel
+	- App\Models\UserModel
 
 
 search:
